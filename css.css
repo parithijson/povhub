@@ -671,3 +671,19 @@ body{
   padding: 1rem 1rem;
  }
   }
+
+
+  body::-webkit-scrollbar {
+    width: 4px;
+    border-radius:100px
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:  linear-gradient(0deg, rgb(255, 0, 204) 0%, rgb(0, 211, 211) 100%);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: transparent; /* opacity: 0; should do the thing either */
+    box-shadow: 0px 0px 0px 100000vh black;
+    border-radius:100px;
+  }
