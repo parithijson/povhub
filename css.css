@@ -193,9 +193,8 @@ body{
   }
 
 .main{
-  margin-top: 6rem;
   text-align: left;
-  padding: 8rem 4rem;
+  padding: 4rem 4rem;
   position: relative;
   font-family: 'Lexend', sans-serif;
 
@@ -211,12 +210,12 @@ body{
 
 .bottom-to-top {
   border-left: 2px solid ;
-  position:absolute;
+  position:relative;
   height: 176px;
   width:0px;
   left:50%;
   top:110%;
-  transform:translate(-50%,-50%);
+  transform:translate(-50%,29%);
  
     border-image:
     linear-gradient(to top, rgb(208,83,200), rgba(0, 0, 0, 0)) 1 100%;
@@ -364,7 +363,7 @@ body{
   background: linear-gradient(181deg,#b248ab,#8711b6);
   border-radius: 71%;
   left: 50%;
-  transform: translate(-50%, 869%);
+  transform: translate(-50%, 151%);
   z-index: 1;
 }
 .btm2{
@@ -387,7 +386,7 @@ body{
   padding: 1rem 16rem;
 }
 .card{
-  height: 370px;
+  height: 23.125rem;
   margin-bottom: 1rem;
   background-color: #080808;
   border-radius: 0;
@@ -513,6 +512,13 @@ body{
   {
     margin-bottom:30px
   }
+  .second{
+    padding: 1rem 6rem;
+   
+  }
+  .card{
+    height: 500px;
+  }
 }
 @media (max-width:767px)
 {
@@ -523,6 +529,9 @@ body{
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
+  }
+  .second{
+    padding: 1rem 4rem;
   }
 }
 .social-icons
